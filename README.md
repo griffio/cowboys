@@ -6,7 +6,7 @@ Jetbrains AI assistant
 Cody 
 
 ```
-I want you to create a simple game as an artefact - no React JS
+I want you to create a simple html/javascript game - no React JS
 This game is called Cowboys 
 It is 2d top down 
 Two players attempt to shoot each other 
