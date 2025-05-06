@@ -3,8 +3,10 @@
 AI prompted game
 
 Jetbrains AI assistant
-Cody 
 
+Cody  AI assistant
+
+---
 
 Original Claude Prompt - https://claude.ai/public/artifacts/c4bb2738-8733-424b-996b-a74e9bffcfbd
 
