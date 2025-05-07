@@ -10,6 +10,8 @@ Cody AI assistant
 
 Jetbrains Junie
 
+![Cowboys Junie Game](cowboys-junie.gif)
+
 ---
 
 Original Claude Prompt - https://claude.ai/public/artifacts/c4bb2738-8733-424b-996b-a74e9bffcfbd
