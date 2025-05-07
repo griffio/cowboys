@@ -1,12 +1,14 @@
 # Cowboys
 
-AI prompted game
+AI prompted games
 
 Jetbrains AI assistant
 
 Cody AI assistant
 
 ![Cowboys Game](cowboys.gif)
+
+Jetbrains Junie
 
 ---
 
