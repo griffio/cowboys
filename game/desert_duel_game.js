@@ -6,7 +6,7 @@ const ctx = canvas.getContext('2d');
 
 // Bullets
 const bullets = [];
-const BULLET_SPEED = 800;
+const BULLET_SPEED = 500;
 const BULLET_RADIUS = 5;
 const BULLET_COOLDOWN = 500; // ms between shots
 const MAX_BOUNCES = 3;
@@ -523,8 +523,9 @@ function processBulletCactusCollision(bullet, cacti, i, bullets) {
             // Regular bullet bounce logic
             if (bullet.bounces < bullet.maxBounces) {
                 // Calculate reflection vector
-                const nx = dx / distance;
-                const ny = dy / distance;
+                const mag = Math.sqrt(dx * dx + dy * dy);
+                const nx = dx / mag;
+                const ny = dy / mag;
                 
                 // Dot product of velocity and normal
                 const dot = bullet.speedX * nx + bullet.speedY * ny;
@@ -541,8 +542,8 @@ function processBulletCactusCollision(bullet, cacti, i, bullets) {
                 bullet.bounces++;
                 
                 // Move bullet slightly to avoid getting stuck
-                bullet.x += bullet.speedX * 0.2;
-                bullet.y += bullet.speedY * 0.2;
+                bullet.x += bullet.speedX * 0.05;
+                bullet.y += bullet.speedY * 0.05;
                 
                 return true;
             } else {
