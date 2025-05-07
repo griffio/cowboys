@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cowboys - 2D Shooter Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Cowboys</h1>
+        <div class="game-info">
+            <div class="player-info" id="player1-info">
+                <h2>Player 1</h2>
+                <div class="health-bar">
+                    <div class="health-fill" id="player1-health"></div>
+                </div>
+                <p>Controls: WASD to move, C to shoot</p>
+            </div>
+            <div class="player-info" id="player2-info">
+                <h2>Player 2</h2>
+                <div class="health-bar">
+                    <div class="health-fill" id="player2-health"></div>
+                </div>
+                <p>Controls: IJKL to move, N to shoot</p>
+            </div>
+        </div>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div class="game-controls">
+            <button id="startButton">Start Game</button>
+            <button id="restartButton" style="display: none;">Restart Game</button>
+            <button id="muteButton" class="mute-button">🔊</button>
+        </div>
+    </div>
+    <script src="audio.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
