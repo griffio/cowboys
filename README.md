@@ -4,7 +4,9 @@ AI prompted game
 
 Jetbrains AI assistant
 
-Cody  AI assistant
+Cody AI assistant
+
+![Cowboys Game](cowboys.gif)
 
 ---
 
